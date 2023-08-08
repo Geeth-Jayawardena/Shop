@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    
+    <!-- <div>
+        <img id="img" src="Male_and_female_chicken_sitting_together.jpg">
+    </div> -->
+
+    
+
+    <script>
+        // const x = document.getElementById("img").src;
+        // console.log(x);
+
+        var img = new Image();
+img.src = 'Male_and_female_chicken_sitting_together.jpg';
+img.load = function() {
+ var canvas = document.createElement('canvas');
+ document.body.appendChild(canvas);
+ var context = canvas.getContext('2d');
+ context.drawImage(img, 0, 0);
+ var data = context.getImageData(x, y, img.width, img.height).data;
+ localStorage.setItem('image', data); // save image data
+};
+
+    </script>
+</body>
+</html>

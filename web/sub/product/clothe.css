@@ -1,0 +1,257 @@
+h1{
+    text-align: center;
+}
+#main{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2000px;
+    float: left;
+}
+#main-men-warmers ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-men-warmers{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-accessories ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-accessories{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-accessorieswquipment ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-accessorieswquipment{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-balls ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-balls{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-football ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-football{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-gloves ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-gloves{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-indoor-football ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-indoor-football{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-mens-jackets ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-mens-jackets{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-men-pants ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-men-pants{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-men-polo-shirt ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-men-polo-shirt{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-men-t-shirt ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-men-t-shirt{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-towels ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-towels{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-main-women-warmers ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-main-women-warmers{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-women-jachets ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-women-jachets{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-women-pants ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-women-pants{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-women-polo-Shirts ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-women-polo-Shirts{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-women-skirts ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-women-skirts{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#main-women-t-shirts ul{
+    list-style-type: none;
+    text-decoration: none;
+    /* font-size: 700px; */
+}
+#main-women-t-shirts{
+    background-color: #edf2f4;
+    width: 18%;
+    height: 2400px;
+    float: left;
+}
+#catogery{
+    /* background-color: red; */
+    width: 18%;
+    height: 350px;
+    display: inline-block;
+    margin: 1%;
+    border: 2px solid white;
+}
+#catogery:hover{
+    transform: translateY(1px);
+    /* border-color: white; */
+    border: 2px solid #d7e3fc;
+}
+img{
+    display:block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#price{
+    display: inline-block;
+    margin: 0;
+}
+#pricename{
+    display: inline-block;
+}
+#main-men-warmers ul{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: grey;
+}
+
+#persanol{
+    float: right;
+    color: black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div id="form-signin">
+
+        <input type="text" id="platanos" placeholder="Cantidad" onkeyup="calculom(this.value,precioplatanos.value);">
+        <input type="text" id="precioplatanos" placeholder="Promedio" onkeyup="calculom(this.value,platanos.value,totalplatanos);"/> 
+        <input type="text" size="8" id="totalplatanos" name="tot" placeholder="Derp">
+        <hr>
+        
+        <input type="text" id="platanos2" placeholder="Cantidad" onkeyup="calculom(this.value,precioplatanos2.value,totalplatanos2);">
+        <input type="text" id="precioplatanos2" placeholder="Promedio" onkeyup="calculos(this.value,platanos2.value,totalplatanos2,totalplatanos.value,totalplatanos3);"/> 
+        <input type="text" size="8" id="totalplatanos2" name="tot2" placeholder="Derp" />
+        
+        <hr>
+        
+        <input type="text" size="8" id="totalplatanos3" placeholder="Subtotal" />
+        
+        </div>
+
+
+        <script>
+                function calculom(cantidad,promedio,inputtext){
+        // Calculo del subtotal
+        subtotal = promedio*cantidad;
+        inputtext.value=subtotal;
+    }
+
+    function calculos(cantidad,promedio,inputtext,drp1,total){
+    subtotal = promedio*cantidad;
+    derp2.value=subtotal;
+    // Calculo del subtotal
+  sum = Number(subtotal)+Number(derp1);
+  total.value=sum;
+    }
+        </script>
+    
+</body>
+</html>

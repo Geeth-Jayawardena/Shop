@@ -1,0 +1,70 @@
+var data = [];
+
+function showAndClearField(formRef){
+    var resultName = formRef.name.value;
+    
+    if (resultName == ""){
+        alert("You did not enter correctly")
+    }else{
+        
+        data.push(resultName);
+        
+        // formRef.name.value;
+    }
+
+    var resultEmail = formRef.email.value;
+    
+    if (resultEmail == ""){
+        alert("You did not enter correctly")
+    }else{
+        
+        data.push(resultEmail)
+        // formRef.email.value;
+    }
+
+    var resultMobile = formRef.mobile.value;
+    
+    if (resultMobile == ""){
+        alert("You did not enter correctly")
+    }else{
+        
+        data.push(resultMobile)
+        // formRef.mobile.value;
+    }
+    
+    const resultNumber = formRef.number.value;
+    
+    if (resultNumber == ""){
+        alert("You did not enter correctly")
+    }else{
+        
+        data.push(resultNumber)
+        // formRef.mobile.value;
+    }
+
+    const resultSize = formRef.size.value;
+    
+    if (resultSize == ""){
+        alert("You did not enter correctly")
+    }else{
+        
+        data.push(resultSize)
+        // formRef.mobile.value;
+    }alert(data)
+    document.write(data);
+}
+
+
+
+
+
+    
+function val(){
+    const dataname = "resultName";
+    const dataemail = "resultEmail";
+    const datamobile = "resultMobile";
+
+    document.getElementById("name").innerHTML = dataname;
+    document.getElementById("email").innerHTML = dataemail;
+    document.getElementById("mobile").innerHTML = datamobile;
+}

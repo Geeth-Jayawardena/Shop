@@ -1,0 +1,107 @@
+body{
+    background-image: url(img/background/WallpaperDog-17048551.jpg);
+    opacity: 0.8;
+}
+h1{
+    text-align: center;
+    border-color: #ffe8d6;
+    color: #faedcd;
+}
+h2{
+    text-align: center;
+}
+
+/* #cathead{
+    background-color: #edf6f9;
+    margin-top: 50px; 
+} */
+img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid #ffe8d6; */
+}
+#product{
+    display: inline-block;
+    margin-bottom: 5%;
+    /* margin: auto; */
+    width: 17.5%;
+    height: 330px;
+    background-color: #f8f9fa;
+    transition: 0.6s;
+    border: 2px solid white;
+}
+#productleft{
+    display: inline-block;
+    margin-left: 4.6%;
+    margin-bottom: 5%;
+    width: 17.5%;
+    height: 330px;
+    background-color: #f8f9fa;
+    transition: 0.6s;
+    border: 2px solid white;
+}
+#produactctleft{
+    display: inline-block;
+    margin-left: 14%;
+    margin-bottom: 5%;
+    width: 17.5%;
+    height: 330px;
+    background-color: #f8f9fa;
+    transition: 0.6s;
+    border: 2px solid white;
+}
+#productright{
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-right: 4.2%;
+    width: 17.5%;
+    height: 330px;
+    background-color: #f8f9fa;
+    transition: 0.6s;
+    border: 2px solid white;
+}
+#product:hover{
+    transform: translateY(-3px);
+    border-color: #ced4da;
+    border-radius: 5%;
+    background-color: #e9ecef;
+}
+#produactctleft:hover{
+    transform: translateY(-3px);
+    border-color: #ced4da;
+    border-radius: 5%;
+    background-color: #e9ecef;
+}
+#productright:hover{
+    transform: translateY(-3px);
+    border-color: #ced4da;
+    border-radius: 5%;
+    background-color: #e9ecef;
+}
+#productleft:hover{
+    transform: translateY(-3px);
+    border-color: #ced4da;
+    border-radius: 5%;
+    background-color: #e9ecef;
+}
+img{
+    transition: 0.6s;
+}
+img:hover{
+    border-radius: 5%;
+}
+
+#persanol{
+    float: right;
+    color: black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right
+}
+a{
+    text-decoration: none;
+    color: black;
+}

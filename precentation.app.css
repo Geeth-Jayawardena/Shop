@@ -1,0 +1,72 @@
+body{
+    background-image: linear-gradient(to right bottom, #10002b, #353652);
+}
+
+h1{
+    color: #468faf ;
+    letter-spacing: 8px;
+    font-size: 65px;
+}
+
+h2{
+    font-size: 20px;
+}
+h2:hover{
+    color: #4a4e69;
+    transform: translateY(-0.15em);
+    text-decoration: underline;
+
+}
+
+#precentation{
+    text-align: center;
+    
+}
+
+#name{
+    color: #979dac;
+    padding: 90px;
+}
+
+#loarder{
+	width: 230px;
+	margin: 70px auto;
+}
+#loarder div{
+	width: 15px;
+	height: 15px;
+    padding: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	
+}
+.ball1{
+	background-color: #ce4257;
+	animation: animate 0.7s 0.1s linear infinite;
+}
+.ball2{
+	background-color: #b07d62;
+	animation: animate 0.7s 0.2s linear infinite;
+}
+.ball3{
+	background-color: #07beb8;
+	animation: animate 0.7s 0.3s linear infinite;
+}
+.ball4{
+	background-color: #5e548e;
+	animation: animate 0.7s 0.4s linear infinite;
+}
+.ball5{
+	background-color: #403d39;
+	animation: animate 0.7s 0.5s linear infinite;
+}
+.ball6{
+	background-color: #7b2cbf;
+	animation: animate 0.7s 0.6s linear infinite;
+}
+
+@keyframes animate{
+	50%{
+		transform: translate(0,25px);
+	}
+}

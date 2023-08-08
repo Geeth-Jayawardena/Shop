@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="radio" name="gender" id="gender_Male" value="Male" />
+<input type="radio" name="gender" id="gender_Female" value="Female" />
+    
+</body>
+<script>
+    var checked_gender = document.querySelector('input[name = "gender"]:checked');
+
+if(checked_gender != null){  //Test if something was checked
+alert(checked_gender.value); //Alert the value of the checked.
+} else {
+alert('Nothing checked'); //Alert, nothing was checked.
+}
+</script>
+</html>

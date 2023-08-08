@@ -1,0 +1,119 @@
+!doctype html>
+<html>
+
+<head lang="eng">
+
+    <meta charset="utf-8">
+    <title>Join Us</title>
+    <!-- title of the page -->
+
+    <link rel="stylesheet" href="form.css">
+    <!-- Linking the stylesheet -->
+
+
+    <!-- import the icons form fontawsome -->
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/f8.png" class="logo" alt=""> RGMW</a>
+
+        <nav class="navbar">
+
+
+            <a href="index.html">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Attemt Quiz</a>
+            <a href="#">Gallery</a>
+            <a href="#footer">About Us</a>
+
+
+        </nav>
+    </header>
+
+
+
+
+    <!-- The container that the form elements are displayed -->
+    <div class="formcontainer" id="formcontainer">
+
+        <h2 class="formtopic">JOIN US</h2>
+        <!-- topic of the form -->
+
+        <form action="rithik.20210166@iit.ac.lk" method="post">
+            <!-- The form with the required feilds -->
+            <div>
+                <label for="firstname"><h3><b>Name:</b></h3></label>
+                <br>
+                <input type="text" name="fname" id="name1" size="35">
+            </div>
+
+
+            <br>
+            <div>
+                <label for="Email"><h3><b>Email:</b></h3></label>
+                <br>
+                <input type="email" name="email" id="email" size="35">
+            </div>
+            <br>
+            <div>
+                <label for="subject"><h3><b>Subject:</b></h3></label>
+                <br><br>
+                <input type="radio" name="subject" id="subject" value="Local Delivery">
+                <label>Local Delivery</label><br>
+                <input type="radio" name="subject" id="subject2" value="International Shipping">
+                <label>International Shipping</label><br>
+                <input type="radio" name="subject" id="subject3" value="Return items">
+                <label>Return items</label><br>
+                <input type="radio" name="subject" id="subject4" value="Online Booking">
+                <label>Online Booking</label>
+
+
+            </div>
+            <br>
+            <div>
+                <label for="Description"><h3><b>Details:a</b></h3></label>
+                <br>
+                <textarea name="feedback" id="feedback" rows="15" cols="35"></textarea>
+            </div>
+            <br>
+        </form>
+        <button class="sender" onclick="validation()"><b>Submit</b></button>
+        <br><br><br>
+        <div class="hero">
+            <h2><a href="rithik.html">Rithik Gagana Subasinghe</a></h2>
+        </div>
+        <!-- button to validate the form and submit -->
+    </div>
+
+    <div class="formviwer" id="formviwer">
+        <!-- The container that view the form detais -->
+
+        <div class="detailviwer" id="detailviwer"></div>
+        <!-- The data display area of the form -->
+
+        <div class="formfoot" id="formfoot">
+            <!-- The footer of the form viwer -->
+            <!-- buttons respectively to send and edit the form -->
+            <button class="sender" onclick="editForm()" value="Edit">Edit</button>
+            <button class="sender" onclick="sendForm()" value="Send">Send</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="form.js">
+    </script>
+    <!-- Linking the JavaScript File -->
+
+</body>
+
+</html>

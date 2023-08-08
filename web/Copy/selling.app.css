@@ -1,0 +1,58 @@
+h1{
+    text-align: center;
+    border-color: #ffe8d6;
+}
+h2{
+    text-align: center;
+}
+
+#cathead{
+    background-color: #edf6f9;
+    margin-bottom: 0%;  
+}
+img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 3px solid #ffe8d6; */
+}
+#menclothes{
+    display: inline-block;
+    margin-left: 4.8%;
+    margin-right: 0%;
+    width: 45%;
+    height: 450px;
+}
+#womenclothes{
+    display: inline-block;
+    margin-left: 0%;
+    margin-right: 4.8%;
+    width: 45%;
+    height: 450px;
+}
+#boot{
+    display: inline-block;
+    margin-left: 4.8%;
+    margin-right: 0%;
+    width: 29.9%;
+    height: 300px;
+}
+#ball{
+    display: inline-block;
+    margin: 0%;
+    width: 29.9%;
+    height: 300px;
+}
+#guard{
+    display: inline-block;
+    margin-left: 0%;
+    margin-right: 4.8;
+    width: 29.9%;
+    height: 300px;
+}
+
+#product:hover{
+    transform: translateY(-3px);
+    border-color: white;
+}

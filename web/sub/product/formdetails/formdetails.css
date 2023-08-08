@@ -1,0 +1,51 @@
+#required {
+    /* width: 300px; */
+    margin-top: 50px;
+
+}
+#form{
+    margin-left: 30%;
+    margin-right: 30%;
+    /* width: 30%; */
+    font-size: larger;
+    font-weight: 530;
+    border: 5px solid black;
+    height: 700px;
+    border-radius: 3%;
+    
+}
+
+.orderbutton{
+    float: right;
+}
+#invoice{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: larger;
+}
+#secform{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+#totalDetails{
+    display: inline-block;
+}
+#totalid{
+    display: inline-block;
+    /* margin-left: 50px; */
+    padding-right: 37px;
+}
+
+#persanol{
+    float: right;
+    color: black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right
+}
+a{
+    text-decoration: none;
+    color: black;
+}

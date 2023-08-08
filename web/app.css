@@ -1,0 +1,40 @@
+#main{
+    margin-left: 23%;
+    width:50%;
+    height: 1000px;
+    /* background-color: blue; */
+}
+#image{
+    width: 20%;
+    height: 150px;
+    /* background-color: red; */
+    float: right;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+#top{
+    padding-top: 50px;
+}
+.name{
+    padding-top: 20px;
+    font-size: larger;
+}
+
+#persanol{
+    float: right;
+    color: black;
+    position:absolute;
+    bottom:0;
+    right:0;
+    clear:right
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+
+<h1 style="text-align:center">Image Gallery</h1>
+
+<div class="row">
+  <div class="column">
+    <img src="photo/R12.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor"> 
+	<div class="desc">Cristiano Ronaldo</div>
+  </div>
+  <div class="column">
+    <img src="R13.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+	<div class="desc">Lionel Messi</div>
+  </div>
+  <div class="column">
+    <img src="R14.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+	<div class="desc">Neymar</div>
+  </div>
+  <div class="column">
+    <img src="R15.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+	<div class="desc">David Beckham</div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <img src="R16.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+	<div class="desc">Mohamed Salah</div>
+  </div>
+  <div class="column">
+    <img src="R17.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+	<div class="desc">Kylian Mbappé</div>
+  </div>
+  <div class="column">
+    <img src="R18.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+	<div class="desc">Robert Lewandowski</div>
+  </div>
+  <div class="column">
+    <img src="R19.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+	<div class="desc">Harry Kane</div>
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="R12.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="R13.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="R14.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="R15.jpg" style="width:100%">
+    </div>
+	
+	<div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="R16.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="R17.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="R18.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="R19.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="R12.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cristiano RonaldoCristiano Ronaldo, in full Cristiano Ronaldo dos Santos Aveiro, (born February 5, 1985, Funchal, Madeira, Portugal), Portuguese football (soccer) forward who was one of the greatest players of his generation. Ronaldo's father, José Dinis Aveiro, was the equipment manager for the local club Andorinha.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="R13.jpg" style="width:100%" onclick="currentSlide(2)" alt="Lionel Andrés Messi, also known as Leo Messi, is an Argentine professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and captains the Argentina national team.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="R14.jpg" style="width:100%" onclick="currentSlide(3)" alt="Neymar da Silva Santos Júnior, known as Neymar, is a Brazilian professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the Brazil national team. He is widely regarded as one of the best players in the world">
+	</div>
+    <div class="column">
+      <img class="demo cursor" src="R15.jpg" style="width:100%" onclick="currentSlide(4)" alt="David Robert Joseph Beckham OBE is an English former professional footballer, the current president & co-owner of Inter Miami CF and co-owner of Salford City">
+    </div>	  
+	<div class="column">
+      <img class="demo cursor" src="R16.jpg" style="width:100%" onclick="currentSlide(5)" alt="Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer who plays as a forward for Premier League club Liverpool and captains the Egypt national team. Considered one of the best players in the world, he is known for his finishing, dribbling, and speed">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="R17.jpg" style="width:100%" onclick="currentSlide(6)" alt="Kylian Mbappé Lottin is a French professional footballer who plays as a forward for Ligue 1 club Paris Saint-Germain and the France national team. Considered one of the best players in the world, he is known for his dribbling, speed, and finishing.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="R18.jpg" style="width:100%" onclick="currentSlide(7)" alt="Robert Lewandowski is a Polish professional footballer who plays as a striker for Bundesliga club Bayern Munich and is the captain of the Poland national team.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="R19.jpg" style="width:100%" onclick="currentSlide(8)" alt="Harry Edward Kane MBE is an English professional footballer who plays as a striker for Premier League club Tottenham Hotspur and captains the England national team. Regarded as one of the best strikers in the world, Kane is known for his prolific goalscoring record and ability to link play.">
+    </div>
+  </div>
+</div>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>

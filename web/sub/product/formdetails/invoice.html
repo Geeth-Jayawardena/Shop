@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formdetails.css">
+    
+
+    <script>
+ 
+    </script>
+ 
+
+    <title>Order Details</title>
+</head>
+<body>
+    
+
+    <section id="invoice">
+        <h1>Order Details</h1>
+        <p >Name : <span id="name"></span></p>
+        <p >E-mail : <span id="email"></span></p>
+        <p >Mobile : <span id="mobile"></span></p>
+        <p >Quantity : <span id="number"></span></p>
+        <p >size : <span id="size"></span></p>
+        <p >Total Price : <span id="localPrice"></span></p>
+    </section>
+    <script>
+        
+        document.getElementById("name").innerHTML=localStorage.getItem("pName");
+        document.getElementById("email").innerHTML=localStorage.getItem("email");
+        document.getElementById("mobile").innerHTML=localStorage.getItem("mobile");
+        document.getElementById("number").innerHTML=localStorage.getItem("number");
+        document.getElementById("size").innerHTML=localStorage.getItem("size");
+        document.getElementById("localPrice").innerHTML=localStorage.getItem("localPrice");
+        // console.log(localStorage.getItem("data"));
+        const dataArry = localStorage.getItem("data");
+        const mainArry = [];
+        mainArry.push(dataArry);
+        localStorage.setItem("mainArry", mainArry)
+        // document.getElementById("mainArry").innerHTML=localStorage.getItem("mainArry");
+
+        // dataArry.push(localStorage.getItem("data"));
+        console.log(mainArry);
+        localStorage.removeItem("pName")
+        localStorage.removeItem("email")
+        localStorage.removeItem("mobile")
+        localStorage.removeItem("number")
+        localStorage.removeItem("size")
+        localStorage.removeItem("data")
+        localStorage.removeItem("localPrice")
+        // localStorage.clear();
+    </script>
+    </script>
+    <script src="coding.js"></script>
+
+    <div id="persanol"><a href="cv/index.html"><p>
+        Kavishka Geeth Jayawardena</p></a>
+    </div>
+
+    
+</body>
+</html>
